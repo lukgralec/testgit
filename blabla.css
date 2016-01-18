@@ -1,0 +1,19 @@
+div.header-top-left.clearfix > ul > li.first{
+        display: block;   
+}
+#artist-category-nav-responsive > option:nth-child(5){
+    display: none;
+}
+
+
+
+
+
+@media (max-width: 767px) and (min-width: 320px){
+div.header-top-left.clearfix > div > span {
+    position: absolute;
+    top: 0px;
+    left: 62%;
+    z-index: 20;
+}
+}
